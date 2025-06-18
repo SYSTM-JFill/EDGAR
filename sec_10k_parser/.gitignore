@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code & IDE settings
+.vscode/
+.idea/
+
+# macOS / Windows files
+.DS_Store
+Thumbs.db
+
+# Test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Logs / debug / cache
+*.log
+*.pot
+*.mo
+.cache/
+*.sqlite3
+
+# Output
+/data/
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Secrets
+*.env
+config.py  # If it contains credentials or API keys
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
